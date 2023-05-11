@@ -4,16 +4,16 @@ import headshot from '../images/headshot-removebg.png'
 const About = () => {
     return (
         <section class="text-gray-600 body-font bg-gradient-to-b from-emerald-100 to-emerald-50">
-            <div class='mb-8'>
-                    <h1>About Me</h1>
+            <div class='flex justify-center py-12'>
+                    <h1 class='text-black font-bold text-3xl underline sm:text-5xl'>About Me</h1>
                 </div>
-            <div class="md:container md:flex md:mx-auto md:px-5 md:items-center md:justify-center md:flex">
+            <div class="md:container md:flex md:mx-auto md:items-center md:justify-center md:pr-32">
                 
                 
-                    <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="headshot" src={headshot} />
+                    <img class="lg:w-3/6 md:w-3/6 w-5/6 ml-8 mb-10 object-cover object-center rounded" alt="headshot" src={headshot} />
                 
 
-                <div class="text-center lg:w-2/3 w-full">
+                <div class="text-center lg:w-2/5 w-full">
                     <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Microdosing synth tattooed vexillologist</h1>
                     <p class="mb-8 leading-relaxed">Meggings kinfolk echo park stumptown DIY, kale chips beard jianbing tousled. Chambray dreamcatcher trust fund, kitsch vice godard disrupt ramps hexagon mustache umami snackwave tilde chillwave ugh. Pour-over meditation PBR&amp;B pickled ennui celiac mlkshk freegan photo booth af fingerstache pitchfork.</p>
                    
