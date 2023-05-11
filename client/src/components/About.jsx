@@ -3,7 +3,7 @@ import headshot from '../images/headshot-removebg.png'
 
 const About = () => {
     return (
-        <section class="text-gray-600 body-font bg-gradient-to-b from-emerald-200 via-emerald-100 to-emerald-50">
+        <section class="text-gray-600 body-font bg-gradient-to-b from-emerald-100 to-emerald-50">
             <div class='mb-8'>
                     <h1>About Me</h1>
                 </div>

@@ -4,18 +4,18 @@ import heroGif from '../images/portGif2.gif'
 import waveGif from '../images/hey-wave2.gif'
 const Hero = () => {
     return (
-        <section className="bg-gradient-to-b from-emerald-600 to-emerald-200 text-white">
+        <section className="bg-gradient-to-b from-emerald-600 via-emerald-400 to-emerald-100 text-white">
             <div
-                className="mx-auto max-w-full px-4 py-32 flex h-screen items-center"
+                className="flex mx-auto max-w-full px-4 py-32 h-screen items-start"
                 // style={{ backgroundImage: `url(${heroGif})`, backgroundSize: 'cover' }}
             >
 
-                <div className="mx-auto max-w-3xl text-center backdrop-blur-md border-4 rounded-lg pb-8 pt-4 px-4">
-                    <div className='flex justify-center text-white font-bold text-7xl'>
+                <div className="mx-auto flex flex-col max-w-3xl text-center backdrop-blur-md pb-8 pt-4 px-4 md:grid md:">
+                    <div className='flex justify-center text-white font-extrabold text-5xl pr-20 sm:pr-24 sm:text-7xl'>
                         <h1 className='pt-2'>Hey</h1>
-                        <img src={waveGif} className='w-24'/>
+                        <img src={waveGif} className='w-16 sm:w-24'/>
                         </div>
-                        <h1 className='text-white font-bold text-7xl'>I'm Nickon</h1>
+                        <h1 className='text-white font-extrabold text-5xl sm:text-7xl sm:pl-6'>I'm Nickon</h1>
                         
                          
 
@@ -25,9 +25,8 @@ const Hero = () => {
                     
                     
 
-                    <p className="mx-auto mt-4 max-w-xl sm:text-xl/relaxed">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt illo
-                        tenetur fuga ducimus numquam ea!
+                    <p className="mx-auto mt-4 max-w-md sm:text-xl/relaxed">
+                        Full-Stack Engineer 
                     </p>
 
                     <div className="mt-8 flex flex-wrap justify-center gap-4">
@@ -75,13 +74,14 @@ const Hero = () => {
 
                 </div>
 
-                <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2">
+                
+
+            </div>
+            <div className="absolute bottom-24 left-1/2 transform -translate-x-1/2">
                     <svg className="w-12 h-12 text-white animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
                     </svg>
                 </div>
-
-            </div>
 
 
         </section>
