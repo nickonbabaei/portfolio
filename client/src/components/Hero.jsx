@@ -4,6 +4,7 @@ import heroGif from '../images/portGif.gif'
 const Hero = () => {
     return (
         <section className="bg-gray-900 text-white">
+    
 
             <div
                 className="mx-auto max-w-full px-4 py-32 flex h-screen items-center"
@@ -12,7 +13,8 @@ const Hero = () => {
 
                 <div className="mx-auto max-w-3xl text-center backdrop-blur-md border-4 rounded-lg pb-8 pt-4 px-4">
                     <h1
-                        className="bg-gradient-to-r from-white to-sky-500 bg-clip-text text-7xl text-transparent sm:text-7xl"
+                        // className="bg-gradient-to-r from-white to-sky-500 bg-clip-text text-7xl text-transparent sm:text-7xl"
+                        className="text-7xl text-white sm:text-7xl"
                     >
                         Hey, <br></br> I'm Nickon
 
