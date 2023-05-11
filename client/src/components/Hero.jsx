@@ -1,14 +1,12 @@
 import React from 'react'
 import heroImage from '../images/portBackground2.jpg'
-import heroGif from '../images/portGif.gif'
+import heroGif from '../images/portGif2.gif'
 const Hero = () => {
     return (
-        <section className="bg-gray-900 text-white">
-    
-
+        <section className="bg-gradient-to-b from-sky-600 to-sky-200 text-white">
             <div
                 className="mx-auto max-w-full px-4 py-32 flex h-screen items-center"
-                style={{ backgroundImage: `url(${heroGif})`, backgroundSize: 'cover' }}
+                // style={{ backgroundImage: `url(${heroGif})`, backgroundSize: 'cover' }}
             >
 
                 <div className="mx-auto max-w-3xl text-center backdrop-blur-md border-4 rounded-lg pb-8 pt-4 px-4">
