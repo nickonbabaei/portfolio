@@ -1,6 +1,7 @@
 import React from 'react'
 import heroImage from '../images/portBackground2.jpg'
 import heroGif from '../images/portGif2.gif'
+import waveGif from '../images/hey-wave2.gif'
 const Hero = () => {
     return (
         <section className="bg-gradient-to-b from-emerald-600 to-emerald-200 text-white">
@@ -10,14 +11,19 @@ const Hero = () => {
             >
 
                 <div className="mx-auto max-w-3xl text-center backdrop-blur-md border-4 rounded-lg pb-8 pt-4 px-4">
-                    <h1
-                        // className="bg-gradient-to-r from-white to-sky-500 bg-clip-text text-7xl text-transparent sm:text-7xl"
-                        className="text-7xl text-white sm:text-7xl"
-                    >
-                        Hey, <br></br> I'm Nickon
+                    <div className='flex justify-center text-white font-bold text-7xl'>
+                        <h1 className='pt-2'>Hey</h1>
+                        <img src={waveGif} className='w-24'/>
+                        </div>
+                        <h1 className='text-white font-bold text-7xl'>I'm Nickon</h1>
+                        
+                         
 
                         {/* <span className="sm:block"> Increase Conversion. </span> */}
-                    </h1>
+                    
+
+                    
+                    
 
                     <p className="mx-auto mt-4 max-w-xl sm:text-xl/relaxed">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt illo
