@@ -3,14 +3,14 @@ import headshot from '../images/headshot-removebg.png'
 
 const About = () => {
     return (
-        <section class="text-gray-600 body-font bg-gradient-to-b from-emerald-100 to-emerald-50">
+        <section class="text-gray-600 body-font bg-gradient-to-b from-emerald-200 to-emerald-100">
             <div class='flex justify-center py-12'>
-                    <h1 class='text-black font-bold text-3xl underline sm:text-5xl'>About Me</h1>
+                    <h1 class='text-black font-bold text-3xl sm:text-5xl'>About Me</h1>
                 </div>
             <div class="md:container md:flex md:mx-auto md:items-center md:justify-center md:pr-32">
                 
                 
-                    <img class="lg:w-3/6 md:w-3/6 w-5/6 ml-8 mb-10 object-cover object-center rounded" alt="headshot" src={headshot} />
+                    <img class="lg:w-3/6 md:w-3/6 ml-8 mb-10 object-cover object-center rounded" alt="headshot" src={headshot} />
                 
 
                 <div class="text-center lg:w-2/5 w-full">

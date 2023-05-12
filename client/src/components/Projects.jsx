@@ -4,9 +4,9 @@ import SportifyPreview from '../images/sportify-preview.png'
 const Projects = () => {
     return (
 
-        <section class="text-gray-600 body-font bg-gradient-to-b from-emerald-50 to-white">
+        <section class="text-gray-600 body-font bg-gradient-to-b from-emerald-100 to-cyan-200">
             <div class='flex justify-center py-12'>
-                <h1 class='text-black font-bold text-3xl underline sm:text-5xl'>Projects</h1>
+                <h1 class='text-black font-bold text-3xl sm:text-5xl'>Projects</h1>
             </div>
             <div class="container px-5 py-24 mx-auto">
                 <div class="flex flex-wrap justify-center -m-4">

@@ -2,7 +2,12 @@ import React from 'react'
 
 const Skills = () => {
   return (
-    <div>Skills</div>
+    
+        <div class='mx-auto max-w-7xl'>
+
+
+        </div>
+
   )
 }
 
