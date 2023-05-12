@@ -1,5 +1,6 @@
 import React from 'react'
 import SportifyPreview from '../images/sportify-preview.png'
+import Skills from './Skills'
 
 const Projects = () => {
     return (
@@ -59,6 +60,7 @@ const Projects = () => {
 
                 </div>
             </div>
+            <Skills />
         </section>
     )
 }
