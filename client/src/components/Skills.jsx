@@ -29,8 +29,8 @@ const Skills = () => {
 
                     </div >
                     <div class='flex flex-col m-6'>
-                        <img class="sm:w-30 sm:h-28 w-14 rounded-3xl" alt="react" src={JsLogo} />
-                        <p class='mx-auto'>JavaScript</p>
+                        <img class="sm:w-24 sm:h-24 w-14 rounded-3xl" alt="react" src={JsLogo} />
+                        <p class='mx-auto pt-4'>JavaScript</p>
 
                     </div>
                     <div class='flex flex-col m-6'>
@@ -39,23 +39,25 @@ const Skills = () => {
 
                     </div>
                     <div class='flex flex-col m-6'>
-                        <img class="sm:w-30 sm:h-28 w-14 rounded" alt="react" src={HtmlLogo} />
+                        <img class="sm:w-20 sm:h-28 w-14 rounded" alt="react" src={HtmlLogo} />
                         <p class='mx-auto'>HTML</p>
 
                     </div>
-                    <div class='flex flex-col m-6'> 
-                        <img class="sm:w-36 sm:h-28 w-14 rounded" alt="react" src={TailwindLogo} />
-                        <p class='mx-auto'>Tailwind</p>
-
-                    </div>
-                    <div class='flex flex-col m-6'>
-                        <img class="sm:w-26 sm:h-28 w-14 rounded" alt="react" src={CssLogo} />
+                    <div class='flex flex-col m-6 sm:pl-4'>
+                        <img class="sm:w-20 sm:h-28 w-14 rounded" alt="react" src={CssLogo} />
                         <p class='mx-auto'>CSS</p>
 
                     </div>
-                    <div class='flex flex-col m-6'>
-                        <img class="sm:w-32 sm:h-28 w-14 rounded" alt="react" src={PythonLogo} />
-                        <p class='mx-auto'>Python</p>
+                    
+                    <div class='flex flex-col m-6'> 
+                        <img class="sm:w-32 sm:h-24 w-14 rounded" alt="react" src={TailwindLogo} />
+                        <p class='mx-auto pt-4 '>Tailwind</p>
+
+                    </div>
+                    
+                    <div class='flex flex-col m-6 '>
+                        <img class="sm:w-28 sm:h-28 w-14 mt-2 rounded" alt="react" src={PythonLogo} />
+                        <p class='mx-auto '>Python</p>
 
                     </div>
                     <div class='flex flex-col m-6'>
