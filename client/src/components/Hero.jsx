@@ -1,6 +1,4 @@
 import React from 'react'
-import heroImage from '../images/portBackground2.jpg'
-import heroGif from '../images/portGif2.gif'
 import waveGif from '../images/hey-wave2.gif'
 const Hero = () => {
     return (
