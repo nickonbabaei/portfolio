@@ -16,68 +16,70 @@ const Skills = () => {
     return (
 
         <div class='max-w-full flex justify-center border-4 border-white'>
+            
             <div class='max-w-screen-lg border-4 border-white'>
+            <h1 class='text-black font-bold text-3xl sm:text-5xl'>Languages & Technologies in my Arsenal</h1>
 
 
-                <h1 class='text-black font-bold text-3xl sm:text-5xl'>Languages & Technologies in my Arsenal</h1>
-                <div class='grid grid-cols-2 sm:flex sm:flex-wrap sm:justify-between'>
-                    <div class='flex flex-col'>
-                        <img class="w-32 h-28 rounded" alt="react" src={ReactLogo} />
+                
+                <div class='flex flex-wrap justify-center'>
+                    <div class='flex flex-col m-6'>
+                        <img class="sm:w-32 sm:h-28 w-14 rounded" alt="react" src={ReactLogo} />
                         <p class='mx-auto'>React</p>
 
                     </div >
-                    <div class='flex flex-col'>
-                        <img class="w-30 h-28 rounded-3xl" alt="react" src={JsLogo} />
+                    <div class='flex flex-col m-6'>
+                        <img class="sm:w-30 sm:h-28 w-14 rounded-3xl" alt="react" src={JsLogo} />
                         <p class='mx-auto'>JavaScript</p>
 
                     </div>
-                    <div class='flex flex-col'>
-                        <img class="w-32 h-30 rounded" alt="react" src={VueLogo} />
+                    <div class='flex flex-col m-6'>
+                        <img class="sm:w-32 sm:h-30 w-14 rounded" alt="react" src={VueLogo} />
                         <p class='mx-auto'>Vue</p>
 
                     </div>
-                    <div class='flex flex-col'>
-                        <img class="w-30 h-28 rounded" alt="react" src={HtmlLogo} />
+                    <div class='flex flex-col m-6'>
+                        <img class="sm:w-30 sm:h-28 w-14 rounded" alt="react" src={HtmlLogo} />
                         <p class='mx-auto'>HTML</p>
 
                     </div>
-                    <div class='flex flex-col'> 
-                        <img class="w-36 h-28 rounded" alt="react" src={TailwindLogo} />
+                    <div class='flex flex-col m-6'> 
+                        <img class="sm:w-36 sm:h-28 w-14 rounded" alt="react" src={TailwindLogo} />
                         <p class='mx-auto'>Tailwind</p>
 
                     </div>
-                    <div class='flex flex-col'>
-                        <img class="w-28 h-32 rounded" alt="react" src={CssLogo} />
+                    <div class='flex flex-col m-6'>
+                        <img class="sm:w-26 sm:h-28 w-14 rounded" alt="react" src={CssLogo} />
                         <p class='mx-auto'>CSS</p>
 
                     </div>
-                    <div class='flex flex-col'>
-                        <img class="w-30 h-28 rounded" alt="react" src={PythonLogo} />
+                    <div class='flex flex-col m-6'>
+                        <img class="sm:w-32 sm:h-28 w-14 rounded" alt="react" src={PythonLogo} />
                         <p class='mx-auto'>Python</p>
 
                     </div>
-                    <div class='flex flex-col'>
-                        <img class="w-28 h-30 rounded" alt="react" src={NodeLogo} />
+                    <div class='flex flex-col m-6'>
+                        <img class="sm:w-28 sm:h-30 w-14 rounded" alt="react" src={NodeLogo} />
                         <p class='mx-auto'>Node</p>
 
                     </div>
-                    <div class='flex flex-col'>
-                        <img class="w-28 h-28 object-cover object-center rounded" alt="react" src={PostgresLogo} />
+                    <div class='flex flex-col m-6'>
+                        <img class="sm:w-28 sm:h-26 w-14 object-cover object-center rounded" alt="react" src={PostgresLogo} />
                         <p class='mx-auto'>PostgreSQL</p>
 
                     </div>
-                    <div class='flex flex-col'>
-                        <img class="h-28 rounded" alt="react" src={MongodbLogo} />
+                    <div class='flex flex-col m-6'>
+                        <img class="sm:h-28 sm:w-10 w-8 h-16 ml-4 rounded" alt="react" src={MongodbLogo} />
                         <p class='mx-auto'>MongoDB</p>
 
                     </div>
-                    <div class='flex flex-col'>
-                        <img class="w-30 h-28 rounded-3xl" alt="react" src={MysqlLogo} />
+                    <div class='flex flex-col mb-6 mr-6 ml-6 mt-8'>
+                        <img class="sm:w-24 sm:h-24 mb-2 w-14 rounded-3xl" alt="react" src={MysqlLogo} />
                         <p class='mx-auto'>MySQL</p>
 
                     </div>
-                    <div class='flex flex-col'>
-                        <img class="w-30 h-28 rounded" alt="react" src={GithubLogo} />
+                    <div class='flex flex-col m-6'>
+                        <img class="w-14 rounded sm:w-28 sm:h-28" alt="react" src={GithubLogo} />
                         <p class='mx-auto'>GitHub</p>
 
                     </div>
