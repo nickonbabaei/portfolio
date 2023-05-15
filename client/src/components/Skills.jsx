@@ -18,7 +18,7 @@ const Skills = () => {
         <div class='max-w-full flex justify-center border-4 border-white'>
             
             <div class='max-w-screen-lg border-4 border-white'>
-            <h1 class='text-black font-bold text-3xl sm:text-5xl'>Languages & Technologies in my Arsenal</h1>
+            <h1 class='text-black font-bold text-3xl pb-24 sm:text-5xl'>Languages & Technologies in my Arsenal</h1>
 
 
                 
@@ -51,7 +51,7 @@ const Skills = () => {
                     
                     <div class='flex flex-col m-6'> 
                         <img class="sm:w-32 sm:h-24 w-14 rounded" alt="react" src={TailwindLogo} />
-                        <p class='mx-auto pt-4 '>Tailwind</p>
+                        <p class='mx-auto pt-4'>Tailwind</p>
 
                     </div>
                     
