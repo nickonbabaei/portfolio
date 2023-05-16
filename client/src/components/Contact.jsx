@@ -3,7 +3,7 @@ import React from 'react'
 const Contact = () => {
   return (
     <section class="text-gray-600 body-font bg-gradient-to-b from-cyan-200 to-cyan-600 relative" id='contact'>
-  <div class="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
+  <div class="container px-5 py-24 mx-auto flex md:flex-nowrap flex-wrap">
  
     <div class="lg:w-2/3 md:w-1/2 sm:h-full rounded-lg justify-center overflow-hidden flex w-full relative">
     <iframe width="80%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Downtown%20Halifax+()&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/distance-area-calculator.html">area maps</a></iframe>
@@ -20,7 +20,7 @@ const Contact = () => {
         </div>
       </div> */}
     </div>
-    <div class="lg:w-1/3 md:w-1/2 drop-blur flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0 sm:pr-24">
+    <div class="lg:w-1/3 md:w-1/2 drop-blur flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0 md:pr-24">
       <h1 class="text-black text-lg mb-1 font-medium">Feedback</h1>
       <p class="leading-relaxed mb-5 text-gray-600">Post-ironic portland shabby chic echo park, banjo fashion axe</p>
       <div class="relative mb-4">
