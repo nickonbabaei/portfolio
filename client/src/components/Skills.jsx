@@ -17,10 +17,7 @@ const Skills = () => {
 
         <div class='max-w-full border-4 border-white'>
 
-
-
-
-            <div class='max-w-screen-lg mx-auto flex flex-col justify-center w-full h-full border-4 border-white' id='skills'>
+            <div class='max-w-screen-xl mx-auto flex flex-col justify-center w-full h-full border-4 border-white' id='skills'>
                 <h1 class='text-black font-bold pt-32 text-3xl pb-24 sm:text-5xl'>Languages & Technologies in my Arsenal</h1>
 
 

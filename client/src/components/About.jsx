@@ -5,18 +5,18 @@ const About = () => {
     return (
         <section class="text-gray-600 body-font bg-gradient-to-b from-emerald-200 to-emerald-100" id='about'>
             <div class='flex justify-center py-12'>
-                    <h1 class='text-black font-bold pt-20 text-3xl sm:text-5xl'>About Me</h1>
-                </div>
+                <h1 class='text-black font-bold pt-20 text-3xl sm:text-5xl'>About Me</h1>
+            </div>
             <div class="md:container md:flex md:mx-auto md:items-center md:justify-center md:pr-32">
-                
-                
-                    <img class="lg:w-3/6 md:w-3/6 ml-8 mb-10 object-cover object-center rounded" alt="headshot" src={headshot} />
-                
+
+
+                <img class="lg:w-3/6 md:w-3/6 ml-8 mb-10 object-cover object-center rounded" alt="headshot" src={headshot} />
+
 
                 <div class="text-center lg:w-2/5 w-full">
                     <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Microdosing synth tattooed vexillologist</h1>
                     <p class="leading-relaxed">Meggings kinfolk echo park stumptown DIY, kale chips beard jianbing tousled. Chambray dreamcatcher trust fund, kitsch vice godard disrupt ramps hexagon mustache umami snackwave tilde chillwave ugh. Pour-over meditation PBR&amp;B pickled ennui celiac mlkshk freegan photo booth af fingerstache pitchfork.</p>
-                   
+
                 </div>
             </div>
         </section>
