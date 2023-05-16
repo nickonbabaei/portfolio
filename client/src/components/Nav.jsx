@@ -23,7 +23,7 @@ const Nav = () => {
                             <a href="#" className="block py-2 pl-3 pr-4 text-white rounded md:bg-transparent md:hover:underline md:focus:underline md:hover:scale-110 md:p-0">Home</a>
                         </li>
                         <li>
-                            <a href="#" className="block py-2 pl-3 pr-4 text-white rounded md:hover:underline md:focus:underline md:hover:scale-110 md:p-0">About</a>
+                            <a href="#about" className="block py-2 pl-3 pr-4 text-white rounded md:hover:underline md:focus:underline md:hover:scale-110 md:p-0">About</a>
                         </li>
                         <li>
                             <a href="#" className="block py-2 pl-3 pr-4 text-white md:hover:underline md:focus:underline md:hover:scale-110 md:p-0">Projects</a>

@@ -3,7 +3,7 @@ import headshot from '../images/headshot-removebg.png'
 
 const About = () => {
     return (
-        <section class="text-gray-600 body-font bg-gradient-to-b from-emerald-200 to-emerald-100">
+        <section class="text-gray-600 body-font bg-gradient-to-b from-emerald-200 to-emerald-100" id='about'>
             <div class='flex justify-center py-12'>
                     <h1 class='text-black font-bold text-3xl sm:text-5xl'>About Me</h1>
                 </div>

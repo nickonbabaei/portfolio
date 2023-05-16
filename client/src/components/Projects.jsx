@@ -5,7 +5,7 @@ import Skills from './Skills'
 const Projects = () => {
     return (
 
-        <section class="text-gray-600 body-font bg-gradient-to-b from-emerald-100 to-cyan-200">
+        <section class="text-gray-600 body-font bg-gradient-to-b from-emerald-100 to-cyan-200" id='projects'>
             <div class='flex justify-center py-12'>
                 <h1 class='text-black font-bold text-3xl sm:text-5xl'>Projects</h1>
             </div>
