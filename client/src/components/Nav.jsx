@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-scroll'
 
 const Nav = () => {
     return (
@@ -20,19 +21,19 @@ const Nav = () => {
                 <div className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
                     <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium md:flex-row md:space-x-12 md:mt-0">
                         <li>
-                            <a href="#" className="block py-2 pl-3 pr-4 text-white rounded md:bg-transparent md:hover:underline md:focus:underline md:hover:scale-110 md:p-0">Home</a>
+                            <Link to='home' spy={true} smooth={true} offset={50} duration={500} className="block py-2 pl-3 pr-4 text-white cursor-pointer rounded md:bg-transparent md:hover:underline md:focus:underline md:hover:scale-110 md:p-0">Home</Link>
                         </li>
                         <li>
-                            <a href="#about" className="block py-2 pl-3 pr-4 text-white rounded md:hover:underline md:focus:underline md:hover:scale-110 md:p-0">About</a>
+                        <Link to='about' spy={true} smooth={true} offset={50} duration={500} className="block py-2 pl-3 pr-4 text-white cursor-pointer rounded md:bg-transparent md:hover:underline md:focus:underline md:hover:scale-110 md:p-0">About</Link>
                         </li>
                         <li>
-                            <a href="#" className="block py-2 pl-3 pr-4 text-white md:hover:underline md:focus:underline md:hover:scale-110 md:p-0">Projects</a>
+                        <Link to='projects' spy={true} smooth={true} offset={50} duration={500} className="block py-2 pl-3 pr-4 text-white cursor-pointer rounded md:bg-transparent md:hover:underline md:focus:underline md:hover:scale-110 md:p-0">Projects</Link>
                         </li>
                         <li>
-                            <a href="#" className="block py-2 pl-3 pr-4 text-white md:hover:underline md:focus:underline md:hover:scale-110 md:p-0">Skills</a>
+                        <Link to='skills' spy={true} smooth={true} offset={50} duration={500} className="block py-2 pl-3 pr-4 text-white cursor-pointer rounded md:bg-transparent md:hover:underline md:focus:underline md:hover:scale-110 md:p-0">Skills</Link>
                         </li>
                         <li>
-                            <a href="#" className="block py-2 pl-3 pr-4 text-white md:hover:underline md:focus:underline md:hover:scale-110 md:p-0">Contact</a>
+                        <Link to='contact' spy={true} smooth={true} offset={50} duration={500} className="block py-2 pl-3 pr-4 text-white cursor-pointer rounded md:bg-transparent md:hover:underline md:focus:underline md:hover:scale-110 md:p-0">Contact</Link>
                         </li>
                     </ul>
                 </div>
