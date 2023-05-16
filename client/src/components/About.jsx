@@ -15,7 +15,8 @@ const About = () => {
 
                 <div class="text-center lg:w-2/5 w-full">
                     <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Microdosing synth tattooed vexillologist</h1>
-                    <p class="leading-relaxed">Meggings kinfolk echo park stumptown DIY, kale chips beard jianbing tousled. Chambray dreamcatcher trust fund, kitsch vice godard disrupt ramps hexagon mustache umami snackwave tilde chillwave ugh. Pour-over meditation PBR&amp;B pickled ennui celiac mlkshk freegan photo booth af fingerstache pitchfork.</p>
+                    <p class="leading-relaxed">After recently obtaining a degree in mathematics, I ran into an old friend who introduced me to my newfound passion for coding. The logical thinking and problem-solving skills honed during my studies seamlessly transitioned into the world of programming. The synergy between mathematics and coding deeply fascinated me. To be able to turn essentially any idea into a fixed reality, really resonates with me.</p>
+                    {/* <p class="leading-relaxed">fdfdjgjgjghjfdfdjgjgjghjfdfdjgjgjghjfdfdjgjgjghjfdfdjgjgjghjfdfdjgjgjghjfdfdjgjgjghjfdfdjgjgjghjfdfdjgjgjghjfdfdjgjgjghjfdfdjgjgjghj</p> */}
 
                 </div>
             </div>

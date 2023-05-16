@@ -9,10 +9,10 @@ const Projects = () => {
             {/* <div class='flex justify-center py-12'>
                 <h1 class='text-black font-bold pt-24 text-3xl sm:text-5xl'>Projects</h1>
             </div> */}
-            <div class="container max-w-screen-xl py-24 mx-auto">
+            <div class="container max-w-screen-xl py-24 mx-auto border-4 border-white">
             <h1 class='text-black font-bold pt-24 text-3xl sm:text-5xl'>Projects</h1>
                 <div class="flex flex-wrap justify-center">
-                    <div class="lg:w-1/2 md:w-4/6 py-4 px-20 w-5/6">
+                    <div class="lg:w-1/2 md:w-4/6 py-4 px-20 w-5/6 border-4 border-white">
                         <a class="block relative rounded overflow-hidden">
                             <img alt="Sportify Application" class="object-cover object-center w-full h-full block xl:w-5/6" src={SportifyPreview} />
                         </a>
