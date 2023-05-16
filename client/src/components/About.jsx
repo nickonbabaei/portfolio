@@ -5,7 +5,7 @@ const About = () => {
     return (
         <section class="text-gray-600 body-font bg-gradient-to-b from-emerald-200 to-emerald-100" id='about'>
             <div class='flex justify-center py-12'>
-                    <h1 class='text-black font-bold text-3xl sm:text-5xl'>About Me</h1>
+                    <h1 class='text-black font-bold pt-20 text-3xl sm:text-5xl'>About Me</h1>
                 </div>
             <div class="md:container md:flex md:mx-auto md:items-center md:justify-center md:pr-32">
                 
