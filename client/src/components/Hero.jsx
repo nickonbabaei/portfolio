@@ -2,7 +2,7 @@ import React from 'react'
 import waveGif from '../images/hey-wave2.gif'
 const Hero = () => {
     return (
-        <section className="bg-gradient-to-b from-emerald-600 via-emerald-400 to-emerald-200 text-white">
+        <section className="bg-gradient-to-b from-emerald-600 via-emerald-400 to-emerald-200 text-white" id='home'>
             <div
                 className="flex mx-auto max-w-full px-4 py-32 h-screen items-start"
                 // style={{ backgroundImage: `url(${heroGif})`, backgroundSize: 'cover' }}
