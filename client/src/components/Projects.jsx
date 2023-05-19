@@ -6,9 +6,6 @@ const Projects = () => {
     return (
 
         <section class="text-gray-600 body-font bg-gradient-to-b from-emerald-100 to-cyan-200 px-8" id='projects'>
-            {/* <div class='flex justify-center py-12'>
-                <h1 class='text-black font-bold pt-24 text-3xl sm:text-5xl'>Projects</h1>
-            </div> */}
             <div class="container max-w-screen-xl py-24 mx-auto border-4 border-white">
             <h1 class='text-black font-bold pt-24 text-3xl sm:text-5xl'>Projects</h1>
                 <div class="flex flex-wrap justify-center">
