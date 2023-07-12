@@ -3,7 +3,7 @@ import waveGif from '../images/hey-wave2.gif'
 import resume from '../images/cv-icon.png'
 const Hero = () => {
     return (
-        <section className="bg-gradient-to-b from-emerald-600 via-emerald-400 to-emerald-200 text-white" id='home'>
+        <section className="bg-gradient-to-b from-emerald-600 via-emerald-400 to-emerald-300 text-white" id='home'>
             <div
                 className="flex mx-auto max-w-full px-4 py-32 h-screen items-start"
                 // style={{ backgroundImage: `url(${heroGif})`, backgroundSize: 'cover' }}
@@ -25,7 +25,7 @@ const Hero = () => {
                     
 
                     <p className="mx-auto mt-4 max-w-md font-bold sm:text-xl/relaxed">
-                        Full-Stack Engineer 
+                        Software Engineer 
                     </p>
 
                     <div className="mt-8 flex flex-wrap justify-center gap-4">
