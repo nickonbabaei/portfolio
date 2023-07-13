@@ -7,7 +7,7 @@ const Projects = () => {
 
         <section class="text-gray-600 body-font bg-gradient-to-b from-emerald-200 via-cyan-200 to-cyan-400 px-8" id='projects'>
             <div class="container max-w-screen-xl py-24 mx-auto border-4 border-white">
-            <h1 class='text-black sm:text-left text-center sm:font-bold pt-24 text-2xl sm:text-5xl'>Projects</h1>
+            <h1 class='text-black sm:text-left text-center font-bold pt-24 text-2xl sm:text-5xl'>Projects</h1>
                 <div class="flex flex-wrap justify-center">
                     <div class="lg:w-1/2 md:w-3/6 py-4 px-20 w-5/6 border-4 border-white">
                         <a class="block relative rounded overflow-hidden">
