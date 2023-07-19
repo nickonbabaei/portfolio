@@ -10,33 +10,21 @@ const Nav = () => {
         setOpen(!open)
     }
 
-    const handleClose = () => {
-        setOpen(false)
-    }
-
     return (
         <nav className="bg-transparent backdrop-blur-md fixed w-full z-20 top-0 left-0 border-b border-blue-200">
             <div id="dropdown" class={`absolute w-screen h-screen bg-gradient-to-b from-blue-200 to-purple-200 ${open ? "block" : "hidden"}`}>
                 <div className='flex justify-center'>
-                   <button onClick={handleClose} className='text-4xl'>x</button>
+                    <button onClick={() => setOpen(false)} className='text-4xl hover:scale-110 pt-4'>x</button>
                 </div>
 
-                <div className='flex flex-col items-center h-full justify-center pb-24 text-2xl text-gray-700 font-medium'>
-                    <div>
-                        <Link to="home" onClick={() => setOpen(false)} spy={true} smooth={true} offset={50} duration={500} class="block my-4 cursor-pointer hover:scale-110">Home</Link>
-                    </div>
-                    <div>
-                        <Link to="about" onClick={() => setOpen(false)} spy={true} smooth={true} offset={50} duration={500} class="block my-4 cursor-pointer hover:scale-110">About</Link>
-                    </div>
-                    <div>
-                        <Link to="projects" onClick={() => setOpen(false)} spy={true} smooth={true} offset={50} duration={500} class="block my-4 cursor-pointer hover:scale-110">Projects</Link>
-                    </div>
-                    <div>
-                        <Link to="skills" onClick={() => setOpen(false)} spy={true} smooth={true} offset={50} duration={500} class="block my-4 cursor-pointer hover:scale-110">Skills</Link>
-                    </div>
-                    <div>
-                        <Link to="contact" onClick={() => setOpen(false)} spy={true} smooth={true} offset={50} duration={500} class="block my-4 cursor-pointer hover:scale-110">Contact</Link>
-                    </div>
+                <div className='flex flex-col gap-2 items-center h-full justify-center pb-24 text-2xl text-gray-700 font-medium'>
+
+                    <Link to="home" onClick={() => setOpen(false)} spy={true} smooth={true} offset={50} duration={500} className="block my-4 cursor-pointer hover:scale-110">Home</Link>
+                    <Link to="about" onClick={() => setOpen(false)} spy={true} smooth={true} offset={50} duration={500} className="block my-4 cursor-pointer hover:scale-110">About</Link>
+                    <Link to="projects" onClick={() => setOpen(false)} spy={true} smooth={true} offset={50} duration={500} className="block my-4 cursor-pointer hover:scale-110">Projects</Link>
+                    <Link to="skills" onClick={() => setOpen(false)} spy={true} smooth={true} offset={50} duration={500} className="block my-4 cursor-pointer hover:scale-110">Skills</Link>
+                    <Link to="contact" onClick={() => setOpen(false)} spy={true} smooth={true} offset={50} duration={500} className="block my-4 cursor-pointer hover:scale-110">Contact</Link>
+
                 </div>
 
 
@@ -45,7 +33,7 @@ const Nav = () => {
             <div className="max-w-screen-3xl flex flex-wrap items-center justify-center mx-auto p-4">
                 <div className="relative inline-block group">
 
-                    <button onClick={handleDropDown} className="inline-flex items-center p-2 text-sm text-white rounded-lg sm:hidden hover:scale-110 focus:outline-none focus:ring-2 focus:ring-gray-200" >
+                    <button onClick={handleDropDown} className={`items-center p-2 text-sm text-white rounded-lg sm:hidden hover:scale-110 focus:outline-none focus:ring-2 focus:ring-gray-200 ${open ? "hidden" : "inline-flex"}`} >
                         <svg className="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd"></path></svg>
                     </button>
 

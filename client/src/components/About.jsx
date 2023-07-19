@@ -10,12 +10,12 @@ const About = () => {
 
             <div class="flex flex-col lg:flex-row items-center justify-center">
                 <div className='lg:pr-12'>
-                    <img class="mx-auto sm:m-12 mt-12 mb-4 object-cover object-center rounded" alt="headshot" src={headshot} />
+                    <img class="mx-auto mb-4 lg:mb-0 object-cover object-center rounded" alt="headshot" src={headshot} />
                 </div>
 
                 <div class="text-center lg:w-2/5 lg:mr-16 w-full">
-                    <p class="leading-relaxed pb-4 sm:text-lg text-sm">After recently obtaining a degree in mathematics, I ran into an old friend who introduced me to my newfound passion for coding. The logical thinking and problem-solving skills honed during my studies seamlessly transitioned into the world of programming. The synergy between mathematics and coding deeply fascinate me. To be able to turn essentially any idea into a fixed reality, really resonates with me.</p>
-                    <p class="leading-relaxed sm:text-lg text-sm">After recently obtaining a degree in mathematics, I ran into an old friend who introduced me to my newfound passion for coding. The logical thinking and problem-solving skills honed during my studies seamlessly transitioned into the world of programming. The synergy between mathematics and coding deeply fascinate me. To be able to turn essentially any idea into a fixed reality, really resonates with me.</p>
+                    <p class="leading-relaxed pb-4 sm:text-lg text-base">After recently obtaining a degree in mathematics, I ran into an old friend who introduced me to my newfound passion for coding. The logical thinking and problem-solving skills honed during my studies seamlessly transitioned into the world of programming. The synergy between mathematics and coding deeply fascinate me. To be able to turn essentially any idea into a fixed reality, really resonates with me.</p>
+                    <p class="leading-relaxed sm:text-lg text-base">After recently obtaining a degree in mathematics, I ran into an old friend who introduced me to my newfound passion for coding. The logical thinking and problem-solving skills honed during my studies seamlessly transitioned into the world of programming. The synergy between mathematics and coding deeply fascinate me. To be able to turn essentially any idea into a fixed reality, really resonates with me.</p>
                 </div>
             </div>
         </section>
