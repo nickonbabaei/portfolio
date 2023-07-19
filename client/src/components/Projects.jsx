@@ -7,9 +7,9 @@ import Skills from './Skills'
 const Projects = () => {
     return (
 
-        <section class="text-gray-600 body-font bg-gradient-to-b from-emerald-200 via-cyan-200 to-cyan-400 px-8" id='projects'>
+        <section class="text-gray-600 body-font bg-gradient-to-b from-emerald-200 via-cyan-200 to-cyan-400 px-4 sm:px-8" id='projects'>
             <div class="container max-w-screen-xl py-24 mx-auto border-4 border-white">
-                <h1 class='text-black sm:text-left text-center font-bold pt-24 text-2xl sm:text-5xl'>Projects</h1>
+                <h1 class='text-black font-bold pt-24 text-2xl sm:text-5xl'>Projects</h1>
                 <div class="flex flex-wrap justify-center">
                     <div class="md:w-3/6 sm:w-full py-4 px-2">
                         <a class="block relative overflow-hidden">
@@ -17,7 +17,7 @@ const Projects = () => {
                         </a>
                         <div class="mt-4">
                             <h3 class="text-gray-900 title-font text-lg font-bold">Shape Shift</h3>
-                            <h2 class="text-gray-900 title-font text-lg font-medium">The Catalyzer he Catalyzer he Catalyzer he Catalyzer he Catalyzer he Catalyzer he Catalyzer he Catalyzer he Catalyzer he Catalyzer</h2>
+                            <h2 class="text-gray-900 title-font text-lg font-medium xl:w-5/6">The Catalyzer he Catalyzer he Catalyzer he Catalyzer he Catalyzer he Catalyzer he Catalyzer he Catalyzer he Catalyzer he Catalyzer</h2>
                             <p class="mt-1">$16.00</p>
                         </div>
                     </div>
@@ -27,7 +27,7 @@ const Projects = () => {
                         </a>
                         <div class="mt-4">
                             <h3 class="text-gray-900 title-font text-lg font-bold">Sportify</h3>
-                            <h2 class="text-gray-900 title-font text-lg font-medium">The Catalyzer he Catalyzer he Catalyzer he Catalyzer he Catalyzer he Catalyzer he Catalyzer he Catalyzer he Catalyzer he Catalyzer</h2>
+                            <h2 class="text-gray-900 title-font text-lg font-medium xl:w-5/6">The Catalyzer he Catalyzer he Catalyzer he Catalyzer he Catalyzer he Catalyzer he Catalyzer he Catalyzer he Catalyzer he Catalyzer</h2>
                             <p class="mt-1">$16.00</p>
                         </div>
                     </div>
@@ -38,7 +38,7 @@ const Projects = () => {
                         </a>
                         <div class="mt-4">
                             <h3 class="text-gray-900 title-font text-lg font-bold">Plate Pals</h3>
-                            <h2 class="text-gray-900 title-font text-lg font-medium">The Catalyzer he Catalyzer he Catalyzer he Catalyzer he Catalyzer he Catalyzer he Catalyzer he Catalyzer he Catalyzer he Catalyzer</h2>
+                            <h2 class="text-gray-900 title-font text-lg font-medium xl:w-5/6">The Catalyzer he Catalyzer he Catalyzer he Catalyzer he Catalyzer he Catalyzer he Catalyzer he Catalyzer he Catalyzer he Catalyzer</h2>
                             <p class="mt-1">$16.00</p>
                         </div>
                     </div>
@@ -48,7 +48,7 @@ const Projects = () => {
                         </a>
                         <div class="mt-4">
                             <h3 class="text-gray-900 title-font text-lg font-bold">Zanzibar</h3>
-                            <h2 class="text-gray-900 title-font text-lg font-medium">The Catalyzer he Catalyzer he Catalyzer he Catalyzer he Catalyzer he Catalyzer he Catalyzer he Catalyzer he Catalyzer he Catalyzer</h2>
+                            <h2 class="text-gray-900 title-font text-lg font-medium xl:w-5/6">The Catalyzer he Catalyzer he Catalyzer he Catalyzer he Catalyzer he Catalyzer he Catalyzer he Catalyzer he Catalyzer he Catalyzer</h2>
                             <p class="mt-1">$16.00</p>
                         </div>
                     </div>

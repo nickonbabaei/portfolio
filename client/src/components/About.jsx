@@ -3,9 +3,9 @@ import headshot from '../images/headshot-removebg.png'
 
 const About = () => {
     return (
-        <section class="text-gray-600 body-font bg-gradient-to-b from-emerald-300 to-emerald-200 px-8 " id='about'>
+        <section class="text-gray-600 body-font bg-gradient-to-b from-emerald-300 to-emerald-200 px-4 sm:px-8 " id='about'>
             <div class='max-w-screen-xl mx-auto container sm:block py-12 border-4 border-white'>
-                <h1 class='text-black text-center sm:text-left font-bold pt-20 text-2xl sm:text-5xl'>About Me</h1>
+                <h1 class='text-black font-bold pt-20 text-2xl sm:text-5xl'>About Me</h1>
             </div>
             <div class="lg:flex lg:items-center lg:justify-center border-4 border-white">
             
