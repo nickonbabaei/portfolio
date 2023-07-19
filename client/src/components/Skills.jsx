@@ -16,9 +16,9 @@ import ExpressLogo from '../images/express-logo.png'
 const Skills = () => {
     return (
 
-        <div class='max-w-full border-2 border-white'>
+        <div class=''>
             <div class='max-w-screen-xl mx-auto flex flex-col justify-center' id='skills'>
-                <h1 class='text-black font-bold pt-32 text-2xl pb-4 sm:text-5xl '>Languages & Technologies in my Arsenal</h1>
+                <h1 class='text-black font-bold pt-32 text-2xl pb-4 sm:text-4xl '>Languages & Technologies in my Arsenal</h1>
                 <div class='grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 text-center sm:gap-2 py-8 md:px-0'>
                     
                         <div class='flex flex-col sm:justify-between justify-around m-6'>

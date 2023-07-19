@@ -8,8 +8,8 @@ const Projects = () => {
     return (
 
         <section class="text-gray-600 body-font bg-gradient-to-b from-emerald-200 via-cyan-200 to-cyan-400 px-4 sm:px-8" id='projects'>
-            <div class="container max-w-screen-xl py-24 mx-auto border-4 border-white">
-                <h1 class='text-black font-bold pt-24 text-2xl sm:text-5xl'>Projects</h1>
+            <div class="container max-w-screen-xl py-24 mx-auto">
+                <h1 class='text-black font-bold pb-12 pt-8 text-2xl sm:text-4xl'>My Projects</h1>
                 <div class="flex flex-wrap justify-center">
                     <div class="md:w-3/6 sm:w-full py-4 px-2">
                         <a class="block relative overflow-hidden">
