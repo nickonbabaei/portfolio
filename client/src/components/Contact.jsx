@@ -22,9 +22,8 @@ const Contact = () => {
             <textarea id="message" name="message" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
           </div>
           <button class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
-          <p class="text-xs text-gray-500 mt-3">Chicharrones blog helvetica normcore iceland tousled brook viral artisan.</p>
         </div>
-        <div class="sm:w-1/2 sm:h-full sm:pr-8 sm:pl-0 w-full px-8 rounded-lg justify-center overflow-hidden flex relative mx-auto">
+        <div class="sm:w-1/2 sm:h-full sm:pr-8 sm:pl-0 w-full px-8 rounded-lg justify-center overflow-hidden flex relative mx-auto pt-4 sm:pt-0">
           <iframe className='w-full rounded-xl' width="100%" height="570" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Downtown%20Halifax+()&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/distance-area-calculator.html">area maps</a></iframe>
         </div>
       </div>
