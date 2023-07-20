@@ -5,7 +5,7 @@ const About = () => {
     return (
         <section class="text-gray-600 body-font bg-gradient-to-b from-emerald-300 to-emerald-200 px-4 sm:px-8 " id='about'>
             <div class='max-w-screen-xl mx-auto container sm:block py-12'>
-                <h1 class='text-black font-bold pt-20 text-2xl sm:text-4xl'>About Me</h1>
+                <h1 class='text-black font-bold pt-20 text-2xl sm:text-4xl'>Who is Nickon?</h1>
             </div>
 
             <div class="flex flex-col lg:flex-row items-center justify-center">
