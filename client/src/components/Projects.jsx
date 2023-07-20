@@ -2,6 +2,7 @@ import React from 'react'
 import SportifyPreview from '../images/sportify-preview2.png'
 import ShapeshiftPreview from '../images/shapeshift-preview.png'
 import PlatepalsPreview from '../images/platepals-preview.png'
+import ZanzibarPreview from '../images/zanzibar-preview.png'
 import Skills from './Skills'
 
 const Projects = () => {
@@ -44,7 +45,7 @@ const Projects = () => {
                     </div>
                     <div class="md:w-3/6 sm:w-full py-4 px-2">
                         <a class="block relative overflow-hidden">
-                            <img alt="Sportify Application" class="object-cover object-center rounded-lg w-full h-full block xl:w-5/6" src={SportifyPreview} />
+                            <img alt="Sportify Application" class="object-cover object-center rounded-lg w-full h-full block xl:w-5/6" src={ZanzibarPreview} />
                         </a>
                         <div class="mt-4">
                             <h3 class="text-gray-900 title-font text-lg font-bold pb-2">Zanzibar</h3>

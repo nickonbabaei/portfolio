@@ -5,7 +5,6 @@ const Contact = () => {
     <section class="text-gray-600 body-font bg-gradient-to-b from-cyan-400 to-cyan-700 relative" id='contact'>
       <div class="pb-12 flex mx-auto max-w-screen-xl sm:flex-nowrap flex-wrap">
 
-        
         <div class="sm:w-1/2 drop-blur flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0 px-8">
           <h1 class="text-black text-lg mb-1 font-bold">Get in touch!</h1>
           <p class="leading-relaxed mb-5 text-gray-600">Post-ironic portland shabby chic echo park, banjo fashion axe</p>
@@ -26,6 +25,7 @@ const Contact = () => {
         <div class="sm:w-1/2 sm:h-full sm:pr-8 sm:pl-0 w-full px-8 rounded-lg justify-center overflow-hidden flex relative mx-auto pt-4 sm:pt-0">
           <iframe className='w-full rounded-xl' width="100%" height="570" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Downtown%20Halifax+()&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/distance-area-calculator.html">area maps</a></iframe>
         </div>
+        
       </div>
     </section>
   )
