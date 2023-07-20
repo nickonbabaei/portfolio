@@ -26,18 +26,6 @@ const Contact = () => {
         </div>
         <div class="sm:w-1/2 sm:h-full sm:pr-8 sm:pl-0 w-full px-8 rounded-lg justify-center overflow-hidden flex relative mx-auto">
           <iframe className='w-full rounded-xl' width="100%" height="570" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Downtown%20Halifax+()&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/distance-area-calculator.html">area maps</a></iframe>
-          {/* <div class="bg-white relative py-6 flex flex-wrap rounded shadow-md">
-        <div class="lg:w-1/2 px-6">
-          <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">ADDRESS</h2>
-          <p class="mt-1">Photo booth tattooed prism, portland taiyaki hoodie neutra typewriter</p>
-        </div>
-        <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
-          <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
-          <a class="text-indigo-500 leading-relaxed">example@email.com</a>
-          <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
-          <p class="leading-relaxed">+1 902-478-8059</p>
-        </div>
-      </div> */}
         </div>
       </div>
     </section>
