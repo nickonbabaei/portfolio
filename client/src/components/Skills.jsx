@@ -16,7 +16,7 @@ const Skills = () => {
     return (
         <div class='max-w-screen-xl mx-auto flex flex-col justify-center' id='skills'>
             <h1 class='text-black font-bold pt-32 text-2xl pb-4 sm:text-4xl '>Languages & Technologies in my Arsenal</h1>
-            <div class='grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 text-center sm:gap-2 py-8 md:px-0'>
+            <div class='grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 text-center sm:gap-2 pt-8 sm:pb-24 md:px-0'>
 
                 <div class='flex flex-col sm:justify-between justify-around m-6'>
                     <img class="w-20 sm:w-28 sm:h-24 mx-auto rounded" alt="react" src={ReactLogo} />
