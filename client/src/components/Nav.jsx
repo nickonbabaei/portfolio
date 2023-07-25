@@ -18,13 +18,11 @@ const Nav = () => {
                 </div>
 
                 <div className='flex flex-col gap-2 items-center h-full justify-center pb-24 text-2xl text-gray-700 font-medium'>
-
                     <Link to="home" onClick={() => setOpen(false)} spy={true} smooth={true} offset={50} duration={500} className="block my-4 cursor-pointer hover:scale-110">Home</Link>
                     <Link to="about" onClick={() => setOpen(false)} spy={true} smooth={true} offset={50} duration={500} className="block my-4 cursor-pointer hover:scale-110">About</Link>
                     <Link to="projects" onClick={() => setOpen(false)} spy={true} smooth={true} offset={50} duration={500} className="block my-4 cursor-pointer hover:scale-110">Projects</Link>
                     <Link to="skills" onClick={() => setOpen(false)} spy={true} smooth={true} offset={50} duration={500} className="block my-4 cursor-pointer hover:scale-110">Skills</Link>
                     <Link to="contact" onClick={() => setOpen(false)} spy={true} smooth={true} offset={50} duration={500} className="block my-4 cursor-pointer hover:scale-110">Contact</Link>
-
                 </div>
 
 
