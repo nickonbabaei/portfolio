@@ -24,8 +24,6 @@ const Nav = () => {
                     <Link to="skills" onClick={() => setOpen(false)} spy={true} smooth={true} offset={50} duration={500} className="block my-4 cursor-pointer hover:scale-110">Skills</Link>
                     <Link to="contact" onClick={() => setOpen(false)} spy={true} smooth={true} offset={50} duration={500} className="block my-4 cursor-pointer hover:scale-110">Contact</Link>
                 </div>
-
-
             </div>
 
             <div className="max-w-screen-3xl flex flex-wrap items-center justify-center mx-auto p-4">
@@ -34,7 +32,6 @@ const Nav = () => {
                     <button onClick={handleDropDown} className={`items-center p-2 text-sm text-white rounded-lg sm:hidden hover:scale-110 focus:outline-none focus:ring-2 focus:ring-gray-200 ${open ? "hidden" : "inline-flex"}`} >
                         <svg className="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd"></path></svg>
                     </button>
-
 
                 </div>
                 <div className="items-center justify-between hidden w-full sm:flex sm:w-auto sm:order-1" id="navbar-sticky">
