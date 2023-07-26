@@ -7,7 +7,6 @@ const Hero = () => {
             <div
                 className="flex mx-auto max-w-full px-4 py-32 h-screen items-start"
             >
-
                 <div className="mx-auto flex flex-col max-w-3xl text-center backdrop-blur-md pb-8 pt-4 px-4 md:grid">
                     <div className='flex justify-center text-white font-extrabold text-5xl pr-20 sm:pr-24 sm:text-7xl'>
                         <h1 className='pt-2'>Hey</h1>
@@ -60,9 +59,7 @@ const Hero = () => {
                         </a>
 
                     </div>
-
                 </div>
-
                 
             </div>
             <div className="absolute bottom-24 left-1/2 transform -translate-x-1/2">
@@ -70,11 +67,7 @@ const Hero = () => {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
                     </svg>
                 </div>
-
-
         </section>
-
-
     )
 }
 
