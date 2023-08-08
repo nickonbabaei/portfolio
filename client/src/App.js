@@ -8,7 +8,7 @@ import Contact from './components/Contact';
 
 function App() {
   return (
-    <div>
+    <>
       <Nav />
       <div>
         <Hero />
@@ -16,7 +16,7 @@ function App() {
         <Projects />
         <Contact />
       </div>
-    </div>
+    </>
   );
 }
 
