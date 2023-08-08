@@ -20,7 +20,7 @@ const Projects = () => {
                         </a>
                         <div class="mt-4">
                             <h3 class="text-gray-900 title-font text-lg font-bold pb-2">Shape Shift</h3>
-                            <h2 class="text-gray-900 title-font text-base font-medium xl:w-5/6 pb-4">A calorie/macro tracking MERN app that calculates your necessary daily caloric intake in order to achieve your health goals.</h2>
+                            <h2 class="text-gray-900 title-font text-base font-medium xl:w-5/6 pb-4">A food nutrition tracking MERN app that calculates your daily caloric goal.</h2>
 
                         </div>
                         <div className='flex'>
@@ -92,7 +92,7 @@ const Projects = () => {
                         </a>
                         <div class="mt-4 pb-4">
                             <h3 class="text-gray-900 title-font text-lg font-bold pb-2">Zanzibar</h3>
-                            <h2 class="text-gray-900 title-font text-base font-medium xl:w-5/6">An addicting dice game, built for web browsers with vanilla JS.</h2>
+                            <h2 class="text-gray-900 title-font text-base font-medium xl:w-5/6">An addicting dice game, built for web browsers using vanilla JS.</h2>
 
                         </div>
                         <div>

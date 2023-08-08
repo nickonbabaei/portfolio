@@ -2,6 +2,7 @@ import React from 'react'
 import waveGif from '../images/hey-wave2.gif'
 import resume from '../images/cv-icon.png'
 const Hero = () => {
+
     return (
         <section className="bg-gradient-to-b from-emerald-600 via-emerald-400 to-emerald-300 text-white" id='home'>
             <div
@@ -10,12 +11,12 @@ const Hero = () => {
                 <div className="mx-auto flex flex-col max-w-3xl text-center backdrop-blur-md pb-8 pt-4 px-4 md:grid">
                     <div className='flex justify-center text-white font-extrabold text-5xl pr-20 sm:pr-24 sm:text-7xl'>
                         <h1 className='pt-2'>Hey</h1>
-                        <img src={waveGif} className='w-16 sm:w-24'/>
-                        </div>
-                        <h1 className='text-white font-extrabold text-5xl sm:text-7xl sm:pl-6'>I'm Nickon</h1>
+                        <img src={waveGif} className='w-16 sm:w-24' />
+                    </div>
+                    <h1 className='text-white font-extrabold text-5xl sm:text-7xl sm:pl-6'>I'm Nickon</h1>
 
                     <p className="mx-auto mt-4 max-w-md font-bold sm:text-xl/relaxed">
-                        Software Engineer 
+                        Software Engineer
                     </p>
 
                     <div className="mt-8 flex flex-wrap justify-center gap-4">
@@ -54,19 +55,19 @@ const Hero = () => {
                         </a>
                         <a href="https://www.linkedin.com/in/nickon-babaei/" target="_blank" rel="noreferrer" >
                             <div class="flex gap-3 items-center h-10 hover:scale-110">
-                            <img src={resume} className='h-20'/>
+                                <img src={resume} className='h-20' />
                             </div>
                         </a>
 
                     </div>
                 </div>
-                
+
             </div>
             <div className="absolute bottom-24 left-1/2 transform -translate-x-1/2">
-                    <svg className="w-12 h-12 text-white animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
-                    </svg>
-                </div>
+                <svg className="w-12 h-12 text-white animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+                </svg>
+            </div>
         </section>
     )
 }
