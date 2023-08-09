@@ -53,7 +53,7 @@ const Hero = () => {
 
                             </div>
                         </a>
-                        <a href="https://www.linkedin.com/in/nickon-babaei/" target="_blank" rel="noreferrer" >
+                        <a download='NickonBabaei_Resume.pdf' href='/Resume.pdf'>
                             <div class="flex gap-3 items-center h-10 hover:scale-110">
                                 <img src={resume} className='h-20' />
                             </div>
