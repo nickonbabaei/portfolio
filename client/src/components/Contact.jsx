@@ -4,23 +4,13 @@ import emailjs from '@emailjs/browser'
 const Contact = () => {
   const form = useRef();
 
-  // const initialState = {
-  //   name: '',
-  //   email: '',
-  //   message: ''
-  // }
-
-  // const [messageInfo, setMessageInfo] = useState(initialState)
-
-  // const handleChange = (e) => {
-  //   setMessageInfo({ ...messageInfo, [e.target.id]: e.target.value })
-  // }
-
   const handleSubmit = (e) => {
     e.preventDefault()
     emailjs.sendForm('service_2zpqh2d', 'template_aso4lib', form.current, 'CkKvF-i11b-yPR7Gv')
     .then((result) => {
         console.log(result.text);
+        form.current.reset()
+        window.confirm("Message sent!")
     }, (error) => {
         console.log(error.text);
     });
