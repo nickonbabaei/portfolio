@@ -10,7 +10,7 @@ const Contact = () => {
     .then((result) => {
         console.log(result.text);
         form.current.reset()
-        window.confirm("Message sent!")
+        window.confirm("Message sent successfully!")
     }, (error) => {
         console.log(error.text);
     });
@@ -43,7 +43,7 @@ const Contact = () => {
           <button type='submit' value='Send' class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Send</button>
         </form>
         <div class="sm:w-1/2 sm:h-full sm:pr-8 sm:pl-0 w-full px-4 rounded-lg justify-center overflow-hidden flex relative mx-auto pt-4 sm:pt-0">
-          <iframe className='w-full rounded-xl' width="100%" height="570" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Downtown%20Halifax+()&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/distance-area-calculator.html">area maps</a></iframe>
+          <iframe className='w-full rounded-xl' width="100%" height="570" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Downtown%20Toronto+()&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/distance-area-calculator.html">area maps</a></iframe>
         </div>
 
       </div>
