@@ -11,7 +11,7 @@ const Hero = () => {
                 <div className="mx-auto flex flex-col max-w-3xl text-center backdrop-blur-md pb-8 pt-4 px-4 md:grid">
                     <div className='flex justify-center text-white font-extrabold text-5xl pr-20 sm:pr-24 sm:text-7xl'>
                         <h1 className='pt-2'>Hey</h1>
-                        <img src={waveGif} className='w-16 sm:w-24 ml-6' />
+                        <img src={waveGif} className='w-16 sm:w-24 ml-2' />
                     </div>
                     <h1 className='text-white font-extrabold text-5xl sm:text-7xl sm:pl-6'>I'm Nickon</h1>
 
