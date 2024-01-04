@@ -45,7 +45,6 @@ const Contact = () => {
         <div class="sm:w-1/2 sm:h-full sm:pr-8 sm:pl-0 w-full px-4 rounded-lg justify-center overflow-hidden flex relative mx-auto pt-4 sm:pt-0">
           <iframe className='w-full rounded-xl' width="100%" height="570" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Downtown%20Toronto+()&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/distance-area-calculator.html">area maps</a></iframe>
         </div>
-
       </div>
     </section>
   )
